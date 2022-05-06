@@ -15,7 +15,7 @@ Followed by a list of items in the group that are set up as followes
     - Item image (that is placed in the "products" directory)
     - Price  
 
-```markdown
+```
 "Item Group":{
     "type": "items",
     "Item 1":{
@@ -42,7 +42,7 @@ Followed by a list of items in the group that are set up as followes
     - Items list 
       - Item name:amount (The name of items in the list **must** match existing items)
     - Price 
-```markdown
+```JSON
 "Combo Group":{
     "type": "combos",
     "Combo 1":{
