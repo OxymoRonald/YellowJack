@@ -15,7 +15,7 @@ Followed by a list of items in the group that are set up as followes
     - Item image (that is placed in the "products" directory)
     - Price  
 
-```
+```JSON
 "Item Group":{
     "type": "items",
     "Item 1":{
@@ -68,3 +68,6 @@ Followed by a list of items in the group that are set up as followes
 
 ## Product Images
 Product images are stored in the directory: products/*.png
+
+## Page generation
+The page is automatically generated from the data stored in the JSON file. If the JSON is invalid the page will most likely not load.
