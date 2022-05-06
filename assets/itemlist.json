@@ -2,27 +2,27 @@
     "Food":{
         "type": "items",
         "Dirty Fries":{
-            "description": "That&apos;s some dirty fries",
+            "description": "The dirtiest of fries",
             "image": "fries.png",
             "price": 80
         },
         "Heart Attack Burger":{
-            "description": "That&apos;s a nice burger",
+            "description": "Better have EMS on speed dial",
             "image": "burger.png",
             "price": 80
         },
         "Chicken Wings":{
-            "description": "That&apos;s some good wings",
+            "description": "Original recipe",
             "image": "wings.png",
             "price": 80
         },
         "IronHog Pork Sandwich":{
-            "description": "That&apos;s a good sandwich",
+            "description": "Slow roasted pork with cheese and slaw",
             "image": "porksandwich.png",
             "price": 80
         },
         "Deez Nuts":{
-            "description": "That&apos;s some good nuts",
+            "description": "May contain traces of nuts",
             "image": "nuts.png",
             "price": 90
         },
@@ -35,27 +35,27 @@
     "Drinks":{
         "type": "items",
         "Sweet Tea":{
-            "description": "That&apos;s some sweet tea",
+            "description": "Made with the finest fruits and tea leaves",
             "image": "tea.png",
             "price": 80
         },
         "Root Beer":{
-            "description": "That&apos;s some root beer",
+            "description": "With hints of vanilla and sassafras",
             "image": "rootbeer.png",
             "price": 70
         },
         "Beer":{
-            "description": "That&apos;s some beer",
+            "description": "Beer",
             "image": "beer.png",
             "price": 60
         },
         "Whiskey":{
-            "description": "That&apos;s some whiskey",
+            "description": "Whiskey",
             "image": "whiskey.png",
             "price": 60
         },
         "Vodka":{
-            "description": "That&apos;s some vodka",
+            "description": "Vodka",
             "image": "vodka.png",
             "price": 60
         }
@@ -63,17 +63,17 @@
     "Miscelaneous":{
         "type": "items",
         "Whiskey Tincture":{
-            "description": "That&apos;s some healing",
+            "description": "Makes everything feel better",
             "image": "tincture.png",
             "price": 70
         },
         "Lost MC Cigarettes":{
-            "description": "That&apos;s some smokes",
+            "description": "Light it up",
             "image": "cigarettes.png",
             "price": 100
         },
         "Lost Plushie":{
-            "description": "That&apos;s a cute plushie",
+            "description": "The Lost MC mascot",
             "image": "plushie.png",
             "price": 1000
         }
@@ -81,7 +81,7 @@
     "Combos":{
         "type": "combos",
         "Heart Attack Meal":{
-            "description": "Heart Attack Meal description",
+            "description": "Heart Attack Meal",
             "image": "menu.png",
             "items":{
                 "Dirty Fries":1, 
@@ -91,7 +91,7 @@
             "price":230
         },
         "Mechanics Meal":{
-            "description": "Mechanics Meal description",
+            "description": "Mechanics Meal",
             "image": "menu.png",
             "items":{
                 "Dirty Fries":1, 
@@ -101,7 +101,7 @@
             "price":230
         },
         "Hungry Man Combo":{
-            "description": "Hungry Man Combo description",
+            "description": "Hungry Man Combo",
             "image": "menu.png",
             "items":{
                 "Dirty Fries":2, 
@@ -111,7 +111,7 @@
             "price":540
         },
         "Gimme the 9s":{
-            "description": "Gimme the nines description",
+            "description": "Gimme the Nines",
             "image": "menu.png",
             "items":{
                 "Dirty Fries":2, 
