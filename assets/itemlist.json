@@ -13,22 +13,22 @@
         },
         "Chicken Wings":{
             "description": "That&apos;s some good wings",
-            "image": "unknown.png",
+            "image": "wings.png",
             "price": 80
         },
         "IronHog Pork Sandwich":{
             "description": "That&apos;s a good sandwich",
-            "image": "unknown.png",
+            "image": "porksandwich.png",
             "price": 80
         },
         "Deez Nuts":{
             "description": "That&apos;s some good nuts",
-            "image": "unknown.png",
+            "image": "nuts.png",
             "price": 90
         },
         "Twatter Beef Popcorn":{
             "description": "It&apos;s poppin off",
-            "image": "unknown.png",
+            "image": "popcorn.png",
             "price": 90
         }
     },
@@ -36,27 +36,27 @@
         "type": "items",
         "Sweet Tea":{
             "description": "That&apos;s some sweet tea",
-            "image": "unknown.png",
+            "image": "tea.png",
             "price": 80
         },
         "Root Beer":{
             "description": "That&apos;s some root beer",
-            "image": "unknown.png",
+            "image": "rootbeer.png",
             "price": 70
         },
         "Beer":{
             "description": "That&apos;s some beer",
-            "image": "unknown.png",
+            "image": "beer.png",
             "price": 60
         },
         "Whiskey":{
             "description": "That&apos;s some whiskey",
-            "image": "unknown.png",
+            "image": "whiskey.png",
             "price": 60
         },
         "Vodka":{
             "description": "That&apos;s some vodka",
-            "image": "unknown.png",
+            "image": "vodka.png",
             "price": 60
         }
     },
@@ -64,17 +64,17 @@
         "type": "items",
         "Whiskey Tincture":{
             "description": "That&apos;s some healing",
-            "image": "unknown.png",
+            "image": "tincture.png",
             "price": 70
         },
         "Lost MC Cigarettes":{
             "description": "That&apos;s some smokes",
-            "image": "unknown.png",
+            "image": "cigarettes.png",
             "price": 100
         },
         "Lost Plushie":{
             "description": "That&apos;s a cute plushie",
-            "image": "unknown.png",
+            "image": "plushie.png",
             "price": 1000
         }
     },
@@ -82,7 +82,7 @@
         "type": "combos",
         "Heart Attack Meal":{
             "description": "Heart Attack Meal description",
-            "image": "unknown.png",
+            "image": "menu.png",
             "items":{
                 "Dirty Fries":1, 
                 "Heart Attack Burger":1, 
@@ -92,7 +92,7 @@
         },
         "Mechanics Meal":{
             "description": "Mechanics Meal description",
-            "image": "unknown.png",
+            "image": "menu.png",
             "items":{
                 "Dirty Fries":1, 
                 "IronHog Pork Sandwich":1, 
@@ -102,7 +102,7 @@
         },
         "Hungry Man Combo":{
             "description": "Hungry Man Combo description",
-            "image": "unknown.png",
+            "image": "menu.png",
             "items":{
                 "Dirty Fries":2, 
                 "Heart Attack Burger":3, 
@@ -112,7 +112,7 @@
         },
         "Gimme the 9s":{
             "description": "Gimme the nines description",
-            "image": "unknown.png",
+            "image": "menu.png",
             "items":{
                 "Dirty Fries":2, 
                 "Heart Attack Burger":2, 
