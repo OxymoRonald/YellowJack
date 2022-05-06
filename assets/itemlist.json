@@ -11,10 +11,25 @@
             "image": "burger.png",
             "price": 80
         },
-        "Mammas Chicken Wings":{
+        "Chicken Wings":{
             "description": "That&apos;s some good wings",
             "image": "unknown.png",
             "price": 80
+        },
+        "IronHog Pork Sandwich":{
+            "description": "That&apos;s a good sandwich",
+            "image": "unknown.png",
+            "price": 80
+        },
+        "Deez Nuts":{
+            "description": "That&apos;s some good nuts",
+            "image": "unknown.png",
+            "price": 90
+        },
+        "Twatter Beef Popcorn":{
+            "description": "It&apos;s poppin off",
+            "image": "unknown.png",
+            "price": 90
         }
     },
     "Drinks":{
@@ -27,22 +42,22 @@
         "Root Beer":{
             "description": "That&apos;s some root beer",
             "image": "unknown.png",
-            "price": 80
+            "price": 70
         },
         "Beer":{
             "description": "That&apos;s some beer",
             "image": "unknown.png",
-            "price": 80
+            "price": 60
         },
         "Whiskey":{
             "description": "That&apos;s some whiskey",
             "image": "unknown.png",
-            "price": 80
+            "price": 60
         },
         "Vodka":{
             "description": "That&apos;s some vodka",
             "image": "unknown.png",
-            "price": 80
+            "price": 60
         }
     },
     "Miscelaneous":{
@@ -50,17 +65,17 @@
         "Whiskey Tincture":{
             "description": "That&apos;s some healing",
             "image": "unknown.png",
-            "price": 80
+            "price": 70
         },
-        "Morningwood Cigarettes":{
+        "Lost MC Cigarettes":{
             "description": "That&apos;s some smokes",
             "image": "unknown.png",
-            "price": 80
+            "price": 100
         },
         "Lost Plushie":{
             "description": "That&apos;s a cute plushie",
             "image": "unknown.png",
-            "price": 80
+            "price": 1000
         }
     },
     "Combos":{
@@ -72,6 +87,16 @@
                 "Dirty Fries":1, 
                 "Heart Attack Burger":1, 
                 "Root Beer":1
+            },
+            "price":230
+        },
+        "Mechanics Meal":{
+            "description": "Mechanics Meal description",
+            "image": "unknown.png",
+            "items":{
+                "Dirty Fries":1, 
+                "IronHog Pork Sandwich":1, 
+                "Sweet Tea":1
             },
             "price":230
         },
@@ -91,10 +116,11 @@
             "items":{
                 "Dirty Fries":2, 
                 "Heart Attack Burger":2, 
-                "Mammas Chicken Wings":2,
+                "Chicken Wings":2,
+                "IronHog Pork Sandwich":2,
                 "Sweet Tea":2,
                 "Root Beer":2,
-                "Whiskey Tincture":4
+                "Whiskey Tincture":2
             },
             "price":999
         }
