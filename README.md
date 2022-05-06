@@ -68,6 +68,7 @@ Followed by a list of items in the group that are set up as followes
 
 ## Product Images
 Product images are stored in the directory: products/*.png
+Images should be square and 90x90 pixels for optimal performance. Other sizes will work but might thow off the styling.
 
 ## Page generation
 The page is automatically generated from the data stored in the JSON file. If the JSON is invalid the page will most likely not load.
