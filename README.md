@@ -22,7 +22,7 @@ Followed by a list of items in the group that are set up as followes
         "description": "Description 1",
         "image": "image1.png",
         "price": 80
-    }
+    },
     "Item 2":{
         "description": "description 2",
         "image": "image2.png",
