@@ -63,6 +63,7 @@ body {
 
         .item_image img {
             width:90px;
+            border-radius: 12px;
         }
 
     .item_body {
@@ -128,6 +129,7 @@ body {
         margin-top:5px;
         margin-right: 5px;
         width:40px;
+        border-radius: 8px;
     }
 
     .ordertitle {
