@@ -3,15 +3,26 @@
     padding: 0; 
 }
 
+:root{
+    --background: rgb(75, 68, 62);
+    --t_background: rgb(97, 90, 84);
+    --t_h_background: rgb(41, 38, 33);
+    --t_border: rgb(38, 34, 32);
+    --t_foreground: rgb(74, 67, 61);
+    --text_color:rgb(242, 242, 242);
+    --header_color:rgb(245, 181, 13);
+}
+
 body {
-    background-color:rgb(36, 36, 36);
-    color: rgb(219, 219, 219);
+    background-color: var(--background);
+    color: var(--text_color);
 }
 
 #header {
     font-size: 48px;
     padding: 10px;
     padding-top:0px;
+    color:var(--header_color);
 }
 
 #main {
@@ -21,8 +32,10 @@ body {
 }
 
     .itemlist {
-        border: 3px solid rgb(219, 219, 219);
+        border: 3px solid var(--t_border);
+        background-color: var(--t_background);
         border-collapse: collapse;
+        border-radius: 10px;
         float: left;
         display: block;
         margin-left: 10px;
@@ -32,12 +45,14 @@ body {
     .itemlist th {
         font-size: 24px;
         padding: 5px;
-        border-bottom: 3px solid rgb(219, 219, 219);
-        background-color: rgb(73, 73, 73);
+        border-bottom: 3px solid var(--t_border);
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        background-color: var(--t_h_background);
     }
 
     .itemlist td {
-        border-top: 2px solid rgb(219, 219, 219);
+        border-top: 2px solid var(--t_border);
         text-align: center;
     }
 
@@ -75,7 +90,9 @@ body {
     }
 
     .orderlist {
-        border: 3px solid rgb(219, 219, 219);
+        border: 3px solid var(--t_border);
+        background-color: var(--t_background);
+        border-radius: 10px;
         border-collapse: collapse;
         float: left;
         display: block;
@@ -87,8 +104,10 @@ body {
     .orderlist th {
         font-size: 24px;
         padding: 5px;
-        border-bottom:3px solid rgb(219, 219, 219);
-        background-color: rgb(73, 73, 73);
+        border-bottom:3px solid var(--t_border);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background-color: var(--t_h_background);
         /* width:300px; */
     }
 
@@ -122,13 +141,14 @@ body {
     }
 
     .ordertotal {
-        border-top: 2px solid rgb(219, 219, 219);
+        border-top: 2px solid var(--t_border);
+        border-radius: 0px;
         text-align: right;
         font-weight: normal;
     }
 
     .ordertotalprice {
-        border-top: 2px solid rgb(219, 219, 219);
+        border-top: 2px solid var(--t_border);
         text-align: right;
         font-weight: normal;
     }
@@ -136,8 +156,10 @@ body {
     #reload {
         text-align: center;
         padding:5px;
-        border-top: 3px solid rgb(219, 219, 219);
-        background-color: rgb(73, 73, 73);
+        border-top: 3px solid var(--t_border);
+        background-color: var(--t_h_background);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
     }
 
     #reload button{
