@@ -73,7 +73,7 @@ function posOrder(name, modifier){
         // Create order table
         var orderTable = "<table class='orderlist'>";
         // Add header
-        orderTable += "<tr><th colspan='4'>Order</th></tr>";
+        orderTable += "<tr><th class='orderheader' colspan='4'>Order</th></tr>";
         // For each item in orderobject
         for(item in orderObject){
             // Iterate through members to find item
