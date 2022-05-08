@@ -17,17 +17,17 @@ Followed by a list of items in the group that are set up as followes
 
 ```JSON
 "Item Group":{
-    "type": "items",
-    "Item 1":{
-        "description": "Description 1",
-        "image": "image1.png",
-        "price": 80
-    },
-    "Item 2":{
-        "description": "description 2",
-        "image": "image2.png",
-        "price": 100
-    }
+  "type": "items",
+  "Item 1":{
+      "description": "Description 1",
+      "image": "image1.png",
+      "price": 80
+  },
+  "Item 2":{
+      "description": "description 2",
+      "image": "image2.png",
+      "price": 100
+  }
 }
 ```
 
@@ -44,25 +44,25 @@ Followed by a list of items in the group that are set up as followes
     - Price 
 ```JSON
 "Combo Group":{
-    "type": "combos",
-    "Combo 1":{
-        "description": "Combo 1 description",
-        "image": "combo1.png",
-        "items":{
-            "Item 1":2, 
-            "Item 2":4
-        },
-        "price":230
-    },
-    "Combo 2":{
-        "description": "Combo 2 description",
-        "image": "combo2.png",
-        "items":{
-            "Item 1":5, 
-            "Item 2":2
-        },
-        "price":430
-    }
+  "type": "combos",
+  "Combo 1":{
+      "description": "Combo 1 description",
+      "image": "combo1.png",
+      "items":{
+          "Item 1":2, 
+          "Item 2":4
+      },
+      "price":230
+  },
+  "Combo 2":{
+      "description": "Combo 2 description",
+      "image": "combo2.png",
+      "items":{
+          "Item 1":5, 
+          "Item 2":2
+      },
+      "price":430
+  }
 }
 ```
 
