@@ -95,7 +95,7 @@ function posOrder(name, modifier){
         // Display order total
         orderTable += "<tr><th colspan='3' class='ordertotal'>Total</th><th class='ordertotalprice'>$ " + orderTotal + "</th></tr>";
         // Apply discount
-        var discountPercentage = 10;
+        var discountPercentage = 15;
         orderTable += "<tr><td colspan='3' class='coupontotal'>Coupon Price (-" + discountPercentage + "%)</td><td class='coupontotalprice'>$ " + (Math.ceil(orderTotal * (100 - discountPercentage) / 100 )) + "</td></tr>";
         // Create a total count of items to get
         // Add header for total items
