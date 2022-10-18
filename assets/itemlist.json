@@ -22,6 +22,24 @@
             "price": 125
         }
     },
+    "Alcohol":{
+        "type": "items",
+        "Beer":{
+            "description": "Beer",
+            "image": "beer.png",
+            "price": 130
+        },
+        "Vodka":{
+            "description": "Vodka",
+            "image": "vodka.png",
+            "price": 150
+        },
+        "Whiskey":{
+            "description": "Whiskey",
+            "image": "whiskey.png",
+            "price": 150
+        }
+    },
     "Combos":{
         "type": "combos",
         "Heart Attack Meal":{
