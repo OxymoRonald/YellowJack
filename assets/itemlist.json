@@ -1,81 +1,25 @@
 {
-    "Food":{
+    "Dishes":{
         "type": "items",
-        "Dirty Fries":{
-            "description": "The dirtiest of fries",
-            "image": "fries.png",
-            "price": 80
-        },
-        "Heart Attack Burger":{
-            "description": "Better have EMS on speed dial",
+        "Main Dish":{
+            "description": "Main dishes",
             "image": "burger.png",
-            "price": 80
+            "price": 225
         },
-        "Chicken Wings":{
-            "description": "Original recipe",
-            "image": "wings.png",
-            "price": 80
+        "Side Dish":{
+            "description": "Side dishes",
+            "image": "fries.png",
+            "price": 125
         },
-        "IronHog Pork Sandwich":{
-            "description": "Slow roasted pork with cheese and slaw",
-            "image": "porksandwich.png",
-            "price": 80
-        },
-        "Deez Nuts":{
-            "description": "May contain traces of nuts",
-            "image": "nuts.png",
-            "price": 90
-        },
-        "Twatter Beef Popcorn":{
-            "description": "It&apos;s poppin off",
+        "Desert":{
+            "description": "Deserts",
             "image": "popcorn.png",
-            "price": 90
-        }
-    },
-    "Drinks":{
-        "type": "items",
-        "Sweet Tea":{
-            "description": "Made with the finest fruits and tea leaves",
+            "price": 69
+        },
+        "Drink":{
+            "description": "Drinks",
             "image": "tea.png",
-            "price": 80
-        },
-        "Root Beer":{
-            "description": "With hints of vanilla and sassafras",
-            "image": "rootbeer.png",
-            "price": 70
-        },
-        "Beer":{
-            "description": "Beer",
-            "image": "beer.png",
-            "price": 60
-        },
-        "Whiskey":{
-            "description": "Whiskey",
-            "image": "whiskey.png",
-            "price": 60
-        },
-        "Vodka":{
-            "description": "Vodka",
-            "image": "vodka.png",
-            "price": 60
-        }
-    },
-    "Miscelaneous":{
-        "type": "items",
-        "Whiskey Tincture":{
-            "description": "Makes everything feel better",
-            "image": "tincture.png",
-            "price": 70
-        },
-        "Lost MC Cigarettes":{
-            "description": "Light it up",
-            "image": "cigarettes.png",
-            "price": 100
-        },
-        "Lost Plushie":{
-            "description": "The Lost MC mascot",
-            "image": "plushie.png",
-            "price": 1000
+            "price": 125
         }
     },
     "Combos":{
@@ -84,43 +28,30 @@
             "description": "Heart Attack Meal",
             "image": "menu.png",
             "items":{
-                "Dirty Fries":1, 
-                "Heart Attack Burger":1, 
-                "Root Beer":1
+                "Main Dish":1, 
+                "Side Dish":1, 
+                "Drink":1
             },
-            "price":230
-        },
-        "Mechanics Meal":{
-            "description": "Mechanics Meal",
-            "image": "menu.png",
-            "items":{
-                "Dirty Fries":1, 
-                "IronHog Pork Sandwich":1, 
-                "Sweet Tea":1
-            },
-            "price":230
+            "price":420
         },
         "Hungry Man Combo":{
             "description": "Hungry Man Combo",
             "image": "menu.png",
             "items":{
-                "Dirty Fries":2, 
-                "Heart Attack Burger":3, 
-                "Root Beer":2
+                "Main Dish":3, 
+                "Side Dish":2, 
+                "Drink":1
             },
-            "price":540
+            "price":1099
         },
         "Gimme the 9s":{
             "description": "Gimme the Nines",
             "image": "menu.png",
             "items":{
-                "Dirty Fries":2, 
-                "Heart Attack Burger":2, 
-                "Chicken Wings":2,
-                "IronHog Pork Sandwich":2,
-                "Sweet Tea":2,
-                "Root Beer":2,
-                "Whiskey Tincture":2
+                "Main Dish":2, 
+                "Side Dish":2,
+                "Desert":2, 
+                "Drink":2
             },
             "price":999
         }
