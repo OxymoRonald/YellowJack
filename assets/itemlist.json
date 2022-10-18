@@ -43,7 +43,7 @@
     "Combos":{
         "type": "combos",
         "Heart Attack Meal":{
-            "description": "Heart Attack Meal",
+            "description": "Heart Attack Burger, 1 Side, 1 Drink",
             "image": "menu.png",
             "items":{
                 "Main Dish":1, 
@@ -53,7 +53,7 @@
             "price":420
         },
         "Hungry Man Combo":{
-            "description": "Hungry Man Combo",
+            "description": "3 Main, 2 Side, 1 Drink",
             "image": "menu.png",
             "items":{
                 "Main Dish":3, 
@@ -63,7 +63,7 @@
             "price":1099
         },
         "Gimme the 9s":{
-            "description": "Gimme the Nines",
+            "description": "2 Main, 2 Side, 2 Desert, 2 Drink",
             "image": "menu.png",
             "items":{
                 "Main Dish":2, 
