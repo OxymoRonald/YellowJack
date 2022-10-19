@@ -13,7 +13,7 @@
         },
         "Desert":{
             "description": "Deserts",
-            "image": "popcorn.png",
+            "image": "pumpkinpie.png",
             "price": 69
         },
         "Drink":{
