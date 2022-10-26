@@ -53,12 +53,12 @@
             "price":420
         },
         "Hungry Man Combo":{
-            "description": "3 Main, 2 Side, 1 Drink",
+            "description": "3 Main, 2 Side, 2 Drink",
             "image": "menu.png",
             "items":{
                 "Main Dish":3, 
                 "Side Dish":2, 
-                "Drink":1
+                "Drink":2
             },
             "price":1099
         },
